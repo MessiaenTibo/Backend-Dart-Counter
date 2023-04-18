@@ -24,7 +24,7 @@ public class GamesRepository : IGamesRepository
 
     public async Task<List<Games>> GetGamesByPlayerId(string playerId)
     {
-        return await _context.GamesCollection.Find(x => x.player1.PlayerID == playerId || x.player2.PlayerID == playerId).ToListAsync();
+        return await _context.GamesCollection.Find(x => x.Player1.PlayerID == playerId || x.Player2.PlayerID == playerId).ToListAsync();
     }
 
     public async Task<Games> AddGame(Games game)

@@ -7,7 +7,7 @@ public class Player
     public bool? Won { get; set; }
     public int? Darts { get; set; }
     public double? ThreeDartAvg { get; set; }
-    public int? HighestFinish { get; set; }
+    public int? HighestScore { get; set; }
     public int? HighestCheckout { get; set; }
     public Checkout? Checkouts { get; set; }
     public int? FourtyPlus { get; set; }
