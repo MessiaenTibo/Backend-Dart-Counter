@@ -14,4 +14,5 @@ public class Games
     public int? Sets { get; set; }
     public Player? Player1 { get; set; }
     public Player? Player2 { get; set; }
+    public string? Title { get; set; }
 }

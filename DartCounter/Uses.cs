@@ -23,3 +23,7 @@ global using DartCounter.Repositories;
 
 // Services
 global using DartCounter.Services;
+
+// Validators
+global using DartCounter.Validators;
+global using FluentValidation;
