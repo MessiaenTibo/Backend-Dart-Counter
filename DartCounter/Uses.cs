@@ -27,3 +27,8 @@ global using DartCounter.Services;
 // Validators
 global using DartCounter.Validators;
 global using FluentValidation;
+
+// Keyvault
+global using Azure.Identity;
+global using Azure.Security.KeyVault.Secrets;
+global using Azure.Core;
