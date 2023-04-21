@@ -34,4 +34,4 @@ app.MapPost("/games", async (IValidator<Games> validator, Games game, IGamesServ
     return Results.Ok(newGame);
 });
 
-app.Run("http://localhost:5100");
+app.Run();
