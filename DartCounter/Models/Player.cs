@@ -4,7 +4,7 @@ public class player
 {
     public string? playerID { get; set; }
     public string? username { get; set; }
-    public bool? Won { get; set; }
+    public bool? won { get; set; }
     public int? darts { get; set; }
     public double? threeDartAvg { get; set; }
     public int? highestScore { get; set; }
