@@ -24,7 +24,7 @@ public class GamesRepository : IGamesRepository
 
     public async Task<List<Games>> GetGamesByPlayerId(string playerId)
     {
-        return await _context.GamesCollection.Find(x => x.Player1.PlayerID == playerId || x.Player2.PlayerID == playerId).ToListAsync();
+        return await _context.GamesCollection.Find(x => x.player1.playerID == playerId || x.player2.playerID == playerId).ToListAsync();
     }
 
     public async Task<Games> AddGame(Games game)
@@ -35,8 +35,8 @@ public class GamesRepository : IGamesRepository
 
     public async Task<Games> DeleteGame(string id)
     {
-        var game = await _context.GamesCollection.Find(x => x.Id == id).FirstOrDefaultAsync();
-        await _context.GamesCollection.DeleteOneAsync(x => x.Id == id);
+        var game = await _context.GamesCollection.Find(x => x.id == id).FirstOrDefaultAsync();
+        await _context.GamesCollection.DeleteOneAsync(x => x.id == id);
         return game;
     }
 }

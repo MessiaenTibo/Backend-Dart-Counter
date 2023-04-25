@@ -1,8 +1,8 @@
 namespace DartCounter.Models;
 
-public class Checkout
+public class checkout
 {
-    public int? Throws { get; set; }
-    public int? Hits { get; set; }
+    public int? throws { get; set; }
+    public int? hits { get; set; }
 }
 

@@ -1,22 +1,22 @@
 namespace DartCounter.Models;
 
-public class Player
+public class player
 {
-    public string? PlayerID { get; set; }
-    public string? Username { get; set; }
-    public bool? Won { get; set; }
-    public int? Darts { get; set; }
-    public double? ThreeDartAvg { get; set; }
-    public int? HighestScore { get; set; }
-    public int? HighestCheckout { get; set; }
-    public Checkout? Checkouts { get; set; }
-    public int? FourtyPlus { get; set; }
-    public int? SixtyPlus { get; set; }
-    public int? EightyPlus { get; set; }
-    public int? HundredPlus { get; set; }
-    public int? OneTwentyPlus { get; set; }
-    public int? OneFourtyPlus { get; set; }
-    public int? OneSixtyPlus { get; set; }
-    public int? OneEighty { get; set; }
+    public string? playerID { get; set; }
+    public string? username { get; set; }
+    public bool? won { get; set; }
+    public int? darts { get; set; }
+    public double? threeDartAvg { get; set; }
+    public int? highestScore { get; set; }
+    public int? highestCheckout { get; set; }
+    public checkout? checkouts { get; set; }
+    public int? fourtyPlus { get; set; }
+    public int? sixtyPlus { get; set; }
+    public int? eightyPlus { get; set; }
+    public int? hundredPlus { get; set; }
+    public int? oneTwentyPlus { get; set; }
+    public int? oneFortyPlus { get; set; }
+    public int? oneSixtyPlus { get; set; }
+    public int? oneEighty { get; set; }
 }
 
