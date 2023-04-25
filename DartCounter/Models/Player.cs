@@ -15,7 +15,7 @@ public class Player
     public int? EightyPlus { get; set; }
     public int? HundredPlus { get; set; }
     public int? OneTwentyPlus { get; set; }
-    public int? OneFortyPlus { get; set; }
+    public int? OneFourtyPlus { get; set; }
     public int? OneSixtyPlus { get; set; }
     public int? OneEighty { get; set; }
 }
