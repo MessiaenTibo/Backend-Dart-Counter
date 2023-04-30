@@ -34,4 +34,10 @@ app.MapPost("/games", async (IValidator<Games> validator, Games game, IGamesServ
     return Results.Ok(newGame);
 });
 
+app.MapDelete("/games/{id}", async (IGamesService gamesService, string id) =>
+{
+    await gamesService.DeleteGame(id);
+    return Results.Ok();
+});
+
 app.Run();
